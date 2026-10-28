@@ -1,0 +1,13 @@
+# Local environment
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+.claude/settings.local.json
+
+# Client data - never commit (runs, finished lists, Excel copies, run hand-off notes)
+runs/
+output/
+*.xlsx
+~$*
+HANDOFF*.md
